@@ -1,17 +1,5 @@
 import React from "react";
-import {
-	Container,
-	Box,
-	Typography,
-	Grid,
-	TextField,
-	Button,
-	FormGroup,
-	FormControlLabel,
-	Checkbox,
-	Alert,
-	CircularProgress,
-} from "@mui/material";
+import { Container, Box, Typography } from "@mui/material";
 
 const RegistrationForm: React.FC = () => {
 	return (
