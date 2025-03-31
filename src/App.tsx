@@ -82,7 +82,7 @@ const RegistrationForm: React.FC = () => {
 					<Typography
 						component="h1"
 						variant="h2"
-						sx={{ fontWeight: 900, color: "black" }}
+						sx={{ fontWeight: 900, textAlign: "center" }}
 					>
 						Not yet! The Real QR code goes live April 12 on our vehicles!{" "}
 					</Typography>
