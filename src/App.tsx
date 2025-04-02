@@ -51,6 +51,7 @@ const RegistrationForm: React.FC = () => {
 					position: "fixed",
 					top: 0,
 					left: 0,
+					maxWidth: "1440px",
 					width: "100vw",
 					height: "100vh",
 					backgroundImage: "url('images/NotYetText.png')",
