@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box, Typography } from "@mui/material";
+import { Container, Box, Typography, Card, CardMedia } from "@mui/material";
 
 const RegistrationForm: React.FC = () => {
 	return (
@@ -48,6 +48,21 @@ const RegistrationForm: React.FC = () => {
 			/>
 			<Box
 				sx={{
+					position: "fixed",
+					top: 0,
+					left: 0,
+					width: "100vw",
+					height: "100vh",
+					backgroundImage: "url('images/NotYetText.png')",
+					backgroundSize: "contain",
+					backgroundPosition: "center",
+					backgroundRepeat: "no-repeat",
+
+					zIndex: -1,
+				}}
+			/>
+			<Box
+				sx={{
 					display: "flex",
 					alignItems: "center",
 					justifyContent: "center",
@@ -60,34 +75,7 @@ const RegistrationForm: React.FC = () => {
 					mt: { xs: 10, sm: 0 },
 				}}
 				className={"registration-form-container"}
-			>
-				<Container
-					component="main"
-					maxWidth="sm"
-					className="registration-form"
-					sx={{
-						position: "relative",
-						display: "flex",
-						flexDirection: "column",
-						alignItems: "center",
-						bgcolor: "rgba(255, 255, 255, 0.9)",
-						padding: "50px",
-						borderRadius: 2,
-						boxShadow: 3,
-						zIndex: 1,
-						mt: { xs: 2, sm: 10 },
-						mb: { xs: 2, sm: 0 },
-					}}
-				>
-					<Typography
-						component="h1"
-						variant="h2"
-						sx={{ fontWeight: 900, textAlign: "center" }}
-					>
-						Not yet! The Real QR code goes live April 12 on our vehicles!{" "}
-					</Typography>
-				</Container>
-			</Box>
+			></Box>
 		</>
 	);
 };
