@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Box, Typography, Card, CardMedia } from "@mui/material";
+import { Container, Box } from "@mui/material";
 
 const RegistrationForm: React.FC = () => {
 	return (
