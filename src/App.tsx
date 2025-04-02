@@ -48,17 +48,15 @@ const RegistrationForm: React.FC = () => {
 			/>
 			<Box
 				sx={{
-					position: "fixed",
 					top: 0,
 					left: 0,
-					maxWidth: "1440px",
-					width: "100vw",
-					height: "100vh",
+					width: "125vw",
+					height: "90vh",
 					backgroundImage: "url('images/NotYetText.png')",
 					backgroundSize: "contain",
 					backgroundPosition: "center",
 					backgroundRepeat: "no-repeat",
-
+					marginTop: { xs: "75px", small: "50px" },
 					zIndex: -1,
 				}}
 			/>
