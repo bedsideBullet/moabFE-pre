@@ -48,6 +48,7 @@ const RegistrationForm: React.FC = () => {
 			/>
 			<Box
 				sx={{
+					position: "fixed",
 					top: 0,
 					left: 0,
 					width: "125vw",
